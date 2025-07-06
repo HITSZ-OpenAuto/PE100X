@@ -1,0 +1,57 @@
+{
+  ".github/workflows/trigger-workflow.yml": {
+    "size": 2592,
+    "time": 1751765684,
+    "hash": "7446f3b7731335fef3af8c5e9e37c03f694b9848"
+  },
+  ".gitignore": {
+    "size": 9,
+    "time": 1711298693,
+    "hash": "6d0f1b94330947ce601494e932de4f3ab5cf855c"
+  },
+  ".hoa/worktree.json": {
+    "size": 1451,
+    "time": 1751764305,
+    "hash": "9aa26dbbc33c26a53ae63aa693cf19bc42cb79eb"
+  },
+  "LICENSE": {
+    "size": 20844,
+    "time": 1713086098,
+    "hash": "157eea4ab379d16b84b0c17fa5468dd8a656d6ad"
+  },
+  "README.md": {
+    "size": 11774,
+    "time": 1740447212,
+    "hash": "6120a7cc3ee4f0c96972f8c3245610075f1d6901"
+  },
+  "assignments/.gitkeep": {
+    "size": 0,
+    "time": 1737538924,
+    "hash": "1fb4e5e037d13bb0091be462f09c1d35b5f6b164"
+  },
+  "exams/.gitkeep": {
+    "size": 0,
+    "time": 1737538924,
+    "hash": "1fb4e5e037d13bb0091be462f09c1d35b5f6b164"
+  },
+  "exams/swimming_criteria.docx": {
+    "size": 11849,
+    "time": 1712887159,
+    "hash": "8c5d5d89761747e77b274bfcece4615a2bd4b10a"
+  },
+  "notes/.gitkeep": {
+    "size": 0,
+    "time": 1737538924,
+    "hash": "1fb4e5e037d13bb0091be462f09c1d35b5f6b164"
+  },
+  "notes/哈尔滨工业大学（深圳）《体育E》《体育F》上课方案.pdf": {
+    "size": 1130896,
+    "time": 1735961225,
+    "hash": "a82032851e997a8b74e5d1e7f04858500fce0304"
+  },
+  "tag.txt": {
+    "size": 164,
+    "time": 1734931645,
+    "hash": "d703c9e8cf63dd277bc90faa8646bc273629008d"
+  }
+}
