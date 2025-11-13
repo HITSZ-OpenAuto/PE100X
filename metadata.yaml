@@ -1,0 +1,21 @@
+GroupCourse:
+  Link: "https://hitsz.flowus.cn/hitsz/share/a471785a-4843-4ac3-8106-260776dc5355"
+  Desc: "体育E、F根据体测成绩分为健康跑和体育训练课两种类型"
+  Name: "体育"
+  Ids: ["PE1001", "PE1002"]
+
+GradeComposition:
+  - Name: 考勤
+    Percentage: 10
+  - Name: 课后作业
+    Percentage: 30
+  - Name: 专项成绩
+    Percentage: 50
+  - Name: 理论考试
+    Percentage: 10
+
+CourseHourComposition:
+  - Name: 授课
+    Hour: 32
+  - Name: 实践训练
+    Hour: 16
