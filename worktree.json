@@ -15,9 +15,9 @@
     "hash": "157eea4ab379d16b84b0c17fa5468dd8a656d6ad"
   },
   "README.md": {
-    "size": 25742,
-    "time": 1769804151,
-    "hash": "61ae32af89a4f556efdf13a7662a8c5ebea6982e"
+    "size": 22048,
+    "time": 1767320177,
+    "hash": "9809fb0e0dbe4ad65542d12c527cc733f4c06b94"
   },
   "assignments/.gitkeep": {
     "size": 0,
@@ -43,11 +43,6 @@
     "size": 1130896,
     "time": 1735961225,
     "hash": "a82032851e997a8b74e5d1e7f04858500fce0304"
-  },
-  "readme.toml": {
-    "size": 29981,
-    "time": 1769804149,
-    "hash": "2818ecdf7cc2e3f61e065be77964b15c02c6e529"
   },
   "tag.txt": {
     "size": 164,
