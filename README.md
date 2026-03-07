@@ -1,4 +1,5 @@
 # PE100X - 体育
+<!-- TOML-META: repo_type="multi-project" -->
 
 【标签】: 考查课
 【学分】: 1或0.5
@@ -10,7 +11,10 @@
 - 关于选课可以参考 [HITSZ 新生手册/课内课程/体育课相关](https://hitsz.flowus.cn/hitsz/share/a471785a-4843-4ac3-8106-260776dc5355)。
 - 以下体育课关于考核的部分，仅代表贡献者当时的情况，不能保证每年都一样。
 
+<!-- TOML-COURSES-START -->
+
 ## 体育 E, F
+<!-- TOML-COURSE: code="" name="体育 E, F" -->
 
 ### 体育 E, F - 课程概况
 
@@ -24,6 +28,7 @@
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2025-01
 
 ## 体育基础
+<!-- TOML-COURSE: code="" name="体育基础" -->
 
 ### 体育基础 - 授课教师
 
@@ -82,6 +87,7 @@
 > 文 / [Gaster](https://github.com/WDGaster703)，2025-01
 
 ## 体能训练
+<!-- TOML-COURSE: code="" name="体能训练" -->
 
 ### 体能训练 - 授课教师
 
@@ -122,6 +128,7 @@
 > 文 / [IcyDesert](https://github.com/IcyDesert)，2025-07
 
 ## 游泳
+<!-- TOML-COURSE: code="" name="游泳" -->
 
 ### 游泳 - 授课教师
 
@@ -167,6 +174,7 @@
 > 文 / [psp_dada](https://github.com/pspdada)，2024-07
 
 ## 跆拳道 / 空手道
+<!-- TOML-COURSE: code="" name="跆拳道 / 空手道" -->
 
 ### 跆拳道 / 空手道 - 授课教师
 
@@ -210,6 +218,7 @@
 > 文 / [MaxwellJay256](https://github.com/MaxwellJay256)，2024-03
 
 ## 网球
+<!-- TOML-COURSE: code="" name="网球" -->
 
 ### 网球 - 授课教师
 
@@ -246,6 +255,7 @@
 > 文 / [longlin](https://github.com/longlin10086)，2024-07
 
 ## 旱地冰球
+<!-- TOML-COURSE: code="" name="旱地冰球" -->
 
 ### 旱地冰球 - 授课教师
 
@@ -276,6 +286,7 @@
 > 文 / [psp_dada](https://github.com/pspdada)，2024-07
 
 ## 羽毛球
+<!-- TOML-COURSE: code="" name="羽毛球" -->
 
 ### 羽毛球 - 授课教师
 
@@ -301,6 +312,7 @@
 > 文 / [psp_dada](https://github.com/pspdada)，2024-07
 
 ## 排球
+<!-- TOML-COURSE: code="" name="排球" -->
 
 ### 排球 - 授课教师
 
@@ -331,6 +343,7 @@
 > 文 / [psp_dada](https://github.com/pspdada)，2024-07
 
 ## 武术 - 拳
+<!-- TOML-COURSE: code="" name="武术 - 拳" -->
 
 ### 武术 - 拳 - 授课教师
 
@@ -356,6 +369,7 @@
 > 文 / [Maxwell Jay](https://github.com/MaxwellJay256)，2024-08
 
 ## 足球
+<!-- TOML-COURSE: code="" name="足球" -->
 
 ### 足球 - 授课教师
 
@@ -402,6 +416,7 @@
 > 文 / [IcyDesert](https://github.com/IcyDesert)，2025-07
 
 ## 健身街舞
+<!-- TOML-COURSE: code="" name="健身街舞" -->
 
 ### 健身街舞 - 授课教师
 
@@ -444,6 +459,7 @@
 > 文 / [IcyDesert](https://github.com/IcyDesert)，2025-07
 
 ## 乒乓球
+<!-- TOML-COURSE: code="" name="乒乓球" -->
 
 ### 乒乓球 - 授课教师
 
@@ -499,6 +515,7 @@
 > 文 / [ShiningQStar](https://github.com/ShiningStar621)，2025-07
 
 ## 匹克球
+<!-- TOML-COURSE: code="" name="匹克球" -->
 
 ### 匹克球 - 授课教师
 
@@ -551,6 +568,7 @@
 > 文 / [CuO](https://github.com/CuO114)，2025-12
 
 ## 飞盘
+<!-- TOML-COURSE: code="" name="飞盘" -->
 
 ### 飞盘 - 授课教师
 
