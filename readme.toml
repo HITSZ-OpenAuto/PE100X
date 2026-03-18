@@ -117,11 +117,11 @@ content = """
   - 2024 年秋季学期何嘉勇老师的班级体测项目：600m，50m，立定跳远，引体向上 / 俯卧撑（女生为一分钟仰卧起坐），12 min 跑
   - 600 m 男生按照 1000 m 时间 *0.6 折算，女生按照 800 m 时间 *0.75 折算
 """
-author = { name = "syhanjin", link = "https://github.com/syhanjin", date = "2025.1" }
+author = { name = "syhanjin", link = "https://github.com/syhanjin", date = "2025-01" }
 
 [[courses]]
 name = "体能训练"
-describtion = "**体能训练和上面的体育基础是两门课！此课是体测及格同学的任选课！**"
+description = "**体能训练和上面的体育基础是两门课！此课是体测及格同学的任选课！**"
 
 [[courses.teachers]]
 name = "钱星豪（已离职，悲）"
@@ -228,7 +228,7 @@ author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-
 [[courses]]
 name = "跆拳道 / 空手道"
 [[courses.sections]]
-describtion = """
+description = """
 跆拳道和空手道本身就是同类型的运动，两门课的内容和考核要求也非常相似，因此我把它们合在一起记录。
 我也很推荐选了其中一门的同学在另一个学期选修另一门。
 """
@@ -486,7 +486,7 @@ author = { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date
 name = "足球"
 
 [[courses.sections]]
-title = "上课地点"
+title = "授课地点"
 
 [[courses.sections.items]]
 content = "哈工大足球场（在操场旁边的那组场地的外边）；但 2024 年秋季由于有军训，所以也会去大学城足球场上课。若下雨则会在旁边的 M 栋经管楼大堂集合，上理论课。"
