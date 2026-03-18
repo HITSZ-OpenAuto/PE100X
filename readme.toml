@@ -2,14 +2,10 @@ course_name = "体育"
 course_code = "PE100X"
 repo_type = "multi-project"
 description = """
-【标签】: 考查课
-【学分】: 1或0.5
-【标签】: 必修
 
 - 学分情况：
   - 大一两个学期：PE1001 是 1 学分 32 学时
-  - 大二、大三四个学期：PE1002 是 0.5 学分 16 学时
-  - 在 24 级（或许一直都是这样），体育课系统上确实是 0.5 学分 16 学时，但实际上课仍然和大一一样，是 32 学时（16 周课）
+  - 大二、大三四个学期：PE1002 是 0.5 学分 16 学时 + 16 学时课外辅导，实际上仍然是 32 学时。
 - 关于选课可以参考 [HITSZ 新生手册/课内课程/体育课相关](https://hitsz.flowus.cn/hitsz/share/a471785a-4843-4ac3-8106-260776dc5355)。
 - 以下体育课关于考核的部分，仅代表贡献者当时的情况，不能保证每年都一样。
 - 对于不少体育课，若当学期你所在的年级进行了体测，那么大概率在体育课上不用再测 1000 米、引体向上等原本的考核项目，给老师提供体测成绩即可。当然如果对自己的成绩不满意也可以在课上重测（）
@@ -28,12 +24,28 @@ content = """
 1. 大二春季学期体测及格的同学，参加**健康跑** + 期末考试；
 2. 大二春季学期体测不及格的同学，参加**体育训练课** + 期末考试。
 
-成绩计算、跑步打卡方式、期末考试内容详见「notes/哈尔滨工业大学（深圳）《体育E》《体育F》上课方案.pdf」。
+成绩计算、跑步打卡方式、期末考试内容详见「polities/哈尔滨工业大学（深圳）《体育E》《体育F》上课方案.pdf」。
 """
 author = { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date = "2025-01" }
 
 [[courses]]
 name = "体育基础"
+
+[[courses.sections]]
+title = "选课要求"
+
+[[courses.sections.items]]
+content = """
+- 体测不及格的同学，修读接下来一学年**体育基础**（大一秋季学期体测决定大一的，大一春季学期体测决定大二的）。
+- 秋季学期专项训练各项成绩均及格且总分在班级排名前 5 名（23 级的名额，每年名额可能会浮动）的同学，春季学期可以离开**体育基础**。
+"""
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
+
+[[courses.sections]]
+title = "上课地点"
+
+[[courses.sections.items]]
+content = "哈工大田径场"
 
 [[courses.teachers]]
 name = "王明磊"
@@ -46,18 +58,8 @@ author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "202
 name = "何嘉勇"
 
 [[courses.teachers.reviews]]
-content = "王明磊老师的师弟， 24 春季学期时要求很高，到 24 秋季学期时和已经进化到师兄看齐（笑"
-author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
-
-[[courses.sections]]
-title = "选课要求"
-
-[[courses.sections.items]]
-content = """
-- 体测不及格的同学，修读接下来一学年**体育基础**（大一秋季学期体测决定大一的，大一春季学期体测决定大二的）。
-- 秋季学期专项训练各项成绩均及格且总分在班级排名前5名（23级的名额，每年名额可能会浮动）的同学，春季学期可以离开**体育基础**。
-"""
-author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
+content = "王明磊老师的师弟， 24 春季学期时要求很高，到 24 秋季学期时和已经进化到师兄看齐，但是 25 年强度又一次提高了"
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-06" }
 
 [[courses.sections]]
 title = "上课内容"
@@ -65,7 +67,10 @@ title = "上课内容"
 [[courses.sections.items]]
 content = """
 上课内容主要是短跑爆发力训练、长跑耐力训练、立定跳远技巧训练、引体向上上肢力量训练，针对体测项目重点突破。
+
 运动量不大，一般进行完一项训练就会有 5 ~ 10 分钟的休息时间，且训练很多时候是一个一个进行的（意味着你有很多时间是在等待的）。
+
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
 
 2025 秋季学期，何嘉勇老师在本人的大二教学班的具体上课内容大致如下：
   - 几乎每节课前置环节都有的：2 圈慢跑和一系列简单热身运动。
@@ -76,90 +81,62 @@ content = """
     - 50 米（短跑）训练
   - 最后 4 节课，考试。（在下面“关于成绩”提及）
 """
-author = [
-  { name = "PVZ&X", link = "", date = "" },
-  { name = "2026.2", link = "", date = "" },
-]
+author = { name = "PVZ&X", link = "", date = "2026.2" }
 
 [[courses.sections]]
-title = "关于成绩"
+title = "分数组成"
 
 [[courses.sections.items]]
 content = """
 - 考勤（10%）
   - 体育基础班每节课都会点名，并按照学校出勤标准要求。
 - 课后作业（30%）
-  - 王明磊老师班级的作业为一学期总共完成 40km 的跑步，每次公里数限制为 2~4km ，配速要求为 8min 配内。
+  - 王明磊老师班级的作业为一学期总共完成 40km 的跑步，每次公里数限制为 2 ~ 4km ，配速要求为 8min 配内。
   - 何嘉勇老师班级的作业为每周完成 2km 的跑步，共15周。配速会逐渐从 8min 配提高到 6.5min 配。
   - 两位老师的课后作业只要完成就有满分，配速要求其实在最后统计成绩时是不关注的。
-  - 在 2025 秋的大二教学班上，何嘉勇老师的作业：前面 7~8 周跑 4 km ，后来过渡到 3 km，最后几周要求为 2 km 。大约在第十周要求有 6.5 min 的配速（不过实际也不管）
+  
 - 专项成绩（50%）
   - 考察体测的相关项目：1000m，50m，立定跳远，引体向上/俯卧撑，12min 跑（大二要求）。
   - 其中 1000m，50m，立定跳远，引体向上考核标准和体测标准相同。
   - 上肢力量考核如果选择俯卧撑，考核标准为 1min 内俯卧撑总数，5 个一分，满分 10 分。
-  - 大二加入耐力测试的 12min 跑，考核标准为公里数，2km 及格（6分），每 100m 一分，上限 10 分，下限 0 分。 
+  - 大二加入耐力测试的 12min 跑，考核标准为公里数，2km 及格（6 分），每 100m 一分，上限 10 分，下限 0 分。 
+- 理论考试（10%）
+  - 期末考试为体育训练相关知识，允许使用电子产品，大部分内容在理论课上播放的 B 站学习视频中。
+"""
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
+
+[[courses.sections.items]]
+content = """
+- 2025 秋的大二教学班上，何嘉勇老师的作业：前面 7~8 周跑 4 km ，后来过渡到 3 km，最后几周要求为 2 km 。大约在第十周要求有 6.5 min 的配速（不过实际也不管）
+- 2025 年秋季学期，何嘉勇老师大二教学班的考试内容与上面基本一致。补充一些细节：除俯卧撑和 12 分钟跑，老师说其他项目均按照体测标准评分，但最后本人体测得分比预估高一些；俯卧撑若不标准计数会折半。其余与上面相同，不再赘述。
+"""
+author = { name = "PVZ&X", link = "", date = "2026.2" }
+
+[[courses.sections.items]]
+content = """
   - 2024 年秋季学期何嘉勇老师的班级体测项目：600m，50m，立定跳远，引体向上 / 俯卧撑（女生为一分钟仰卧起坐），12 min 跑
   - 600 m 男生按照 1000 m 时间 *0.6 折算，女生按照 800 m 时间 *0.75 折算
-  - 其余与上面一致
 """
-author = [
-  { name = "syhanjin", link = "https://github.com/syhanjin", date = "" },
-  { name = "2025.1", link = "", date = "" },
-]
-
-[[courses.sections.items]]
-content = "- 2025 年秋季学期，何嘉勇老师大二教学班的考试内容与上面基本一致。补充一些细节：除俯卧撑和 12 分钟跑，老师说其他项目均按照体测标准评分，但最后本人体测得分比预估高一些；俯卧撑若不标准计数会折半。其余与上面相同，不再赘述。"
-author = [
-  { name = "PVZ&X", link = "", date = "" },
-  { name = "2026.2", link = "", date = "" },
-]
-
-[[courses.sections.items]]
-content = """
-- 理论考试（10%）
-- 期末考试为体育训练相关知识，允许使用电子产品，大部分内容在理论课上播放的 B 站学习视频中。
-"""
-author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
-
-[[courses.sections]]
-title = "关于成绩(补充)"
-
-[[courses.sections.items]]
-content = """
-2024 年秋季学期何嘉勇老师的班级体测项目：600m，50m，立定跳远，引体向上 / 俯卧撑（女生为一分钟仰卧起坐），12 min 跑
-
-- 600 m 男生按照 1000 m 时间 ×0.6 折算，女生按照 800 m 时间 ×0.75 折算
-- 其余与上面一致
-"""
-author = { name = "syhanjin", link = "https://github.com/syhanjin", date = "2025-01" }
-
-[[courses.sections]]
-title = "上课地点"
-
-[[courses.sections.items]]
-content = "哈工大田径场"
-author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
+author = { name = "syhanjin", link = "https://github.com/syhanjin", date = "2025.1" }
 
 [[courses]]
 name = "体能训练"
+describtion = "**体能训练和上面的体育基础是两门课！此课是体测及格同学的任选课！**"
 
 [[courses.teachers]]
-name = "钱星豪"
+name = "钱星豪（已离职，悲）"
 
 [[courses.teachers.reviews]]
 content = """
-（已离职，悲）
 教学内容：
-前半节：针对七项身体素质进行训练（速度、柔韧性、耐力、爆发力、协调性、平衡性、力量）。每一项身体素质都有对应的训练项目，有一些比较好玩（如协调），有些强度会很大（如耐力）。
-后半节课：橄榄球 / 飞盘比赛
+- 前半节：针对七项身体素质进行训练。
+
+> 速度、柔韧性、耐力、爆发力、协调性、平衡性、力量
+
+每一项身体素质都有对应的训练项目，有一些比较好玩（如协调），有些强度会很大（如耐力）。
+
+- 后半节课：橄榄球 / 飞盘比赛
 """
-author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
-
-[[courses.sections]]
-title = "课程概况"
-
-[[courses.sections.items]]
-content = "体能训练和上面的体育基础是两门课！此课是体测及格同学的任选课！"
 author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
 
 [[courses.sections]]
@@ -177,7 +154,8 @@ content = """
 - 单人项目 20%：
   - 50 m 短跑 和 1000 m/800 m 跑
   - 2023 秋可以用体测成绩代替
-- 小组项目 20%（需提前组五人小组），是七个维度中的五个，团队成员分工，每人完成一项：
+> 以下两个项目需要提前组五人小组
+- 小组项目 20%，是七个维度中的五个，团队成员分工，每人完成一项：
   - 速度：50 m×4 折返跑
   - 柔韧：坐位体前屈
   - 耐力：莱格尔跑
@@ -191,22 +169,21 @@ author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "20
 [[courses]]
 name = "游泳"
 
-[[courses.teachers]]
-name = "倪婧娇"
-
-[[courses.teachers.reviews]]
-content = """
-授课风格：非常好的老师，人美心善
-听课建议：零基础的同学只要跟着老师教的步骤照做，多练习几次就能学会，不要害怕呛水
-课上会将同学们分为零基础和有基础两组，有基础的同学学习自由泳，零基础的同学学习蛙泳
-"""
-author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-03" }
-
 [[courses.sections]]
 title = "授课地点"
 
 [[courses.sections.items]]
 content = "大学城游泳馆"
+
+[[courses.teachers]]
+name = "倪婧娇"
+
+[[courses.teachers.reviews]]
+content = """
+- 授课风格：非常好的老师，人美心善
+- 听课建议：零基础的同学只要跟着老师教的步骤照做，多练习几次就能学会，不要害怕呛水
+- 课上会将同学们分为零基础和有基础两组，有基础的同学学习自由泳，零基础的同学学习蛙泳
+"""
 author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-03" }
 
 [[courses.sections]]
@@ -238,7 +215,11 @@ content = """
 - 冬天水温会比较冷，刚下水可能会不适应
 - 课堂外前往游泳馆需要支付 ¥20（校园卡，可以用运动补贴）
 - 上课前一定抽时间**看慕课**！老师上课时间有限，不会仔细讲，需要提前看视频预习。
+"""
+author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-03" }
 
+[[courses.sections.items]]
+content = """
 课上使用的是教学用池而不是比赛用池，水没那么深；游泳池的水深范围很广，浅的一般大家都能站着，深的一般大家都没法站着，所以推荐会游泳的去更深一点的泳道，零基础的去浅一点的泳道。
 游泳池是恒温 26℃，对人体最好的温度，冬天相比岸上水里也不算特别冷。
 """
@@ -246,6 +227,18 @@ author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-
 
 [[courses]]
 name = "跆拳道 / 空手道"
+[[courses.sections]]
+describtion = """
+跆拳道和空手道本身就是同类型的运动，两门课的内容和考核要求也非常相似，因此我把它们合在一起记录。
+我也很推荐选了其中一门的同学在另一个学期选修另一门。
+"""
+author = { name = "MaxwellJay256", link = "https://github.com/MaxwellJay256", date = "2024-03" }
+
+[[courses.sections]]
+title = "授课地点"
+
+[[courses.sections.items]]
+content = "大学城体育馆副馆"
 
 [[courses.teachers]]
 name = "曾翠兰/周紫微"
@@ -255,17 +248,7 @@ content = "好（各种方面的）"
 author = { name = "MaxwellJay256", link = "https://github.com/MaxwellJay256", date = "2024-03" }
 
 [[courses.sections]]
-title = "课程概况"
-
-[[courses.sections.items]]
-content = """
-跆拳道和空手道本身就是同类型的运动，两门课的内容和考核要求也非常相似，因此我把它们合在一起记录。
-我也很推荐选了其中一门的同学在另一个学期选修另一门。
-"""
-author = { name = "MaxwellJay256", link = "https://github.com/MaxwellJay256", date = "2024-03" }
-
-[[courses.sections]]
-title = "关于考试"
+title = "分数组成"
 
 [[courses.sections.items]]
 content = """
@@ -275,15 +258,27 @@ content = """
 2. 1 分钟下蹲
 3. 1 分钟仰卧起坐（主要拉分项）
 
-2024 秋和 2025 春，两门课的理论考试的考核内容都是写一份自己的运动规划。可以查阅资料。
+**不考长跑！不考引体向上！**
 
- **不考长跑！不考引体向上！**
-
- 技术考核内容则是打一套跆拳道 / 空手道的招式。
- 用来学习动作的时间很多，只要认真学都能学会。
- 
- 注：根据身边同学的反馈，2025 秋大二年级的体育课是要考长跑的，可能和当学期大二学生没有进行体测有关。
+技术考核内容则是打一套跆拳道 / 空手道的招式。 用来学习动作的时间很多，只要认真学都能学会。
 """
+author = { name = "MaxwellJay256", link = "https://github.com/MaxwellJay256", date = "2024-03" }
+
+[[courses.sections.items]]
+content = """
+2025 春，跆拳道班的课程分数构成为：
+- 课堂实操 10%
+- 技术考核 50%
+  - 内容不变，仍然是一套招式。
+- 身体素质 30%
+  - 1 分钟开合跳
+  - 男生引体向上 / 女生仰卧起坐
+  - 1000m 跑
+  - 其中后两项可以用体测成绩代替。
+- 随堂测试 10%
+  - 写一份自己的运动规划，可以查阅资料。
+"""
+author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-06" }
 
 [[courses.sections]]
 title = "学习建议"
@@ -295,15 +290,19 @@ content = """
 """
 author = { name = "MaxwellJay256", link = "https://github.com/MaxwellJay256", date = "2024-03" }
 
+[[courses]]
+name = "网球"
+
 [[courses.sections]]
 title = "授课地点"
 
 [[courses.sections.items]]
-content = "大学城体育馆"
-author = { name = "MaxwellJay256", link = "https://github.com/MaxwellJay256", date = "2024-03" }
+content = """
+大学城网球场（游泳馆后面），雨天在大学城体育馆健身房
+由于场所较远，所以老师会在学校规定上课时间后专门空出 5min 等大家（不过下楼晚的话电动车基本都被骑走了）
+"""
+author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-07" }
 
-[[courses]]
-name = "网球"
 
 [[courses.teachers]]
 name = "张文钊"
@@ -324,7 +323,7 @@ content = """
 - 出勤课堂表现 10%
 - 理论成绩 10% 「开卷理论测试」
 - 身体素质 30%
-  - 24年春 用体测成绩代替了
+  - 2024 年春季学期用体测成绩代替了。
 - 专项技术 50%
   - 20 个接球，正手一次反手一次各 10 个，顺序不能乱 「专项占比 95% 」
   - 3 个发球 「专项占比 5% 」
@@ -332,15 +331,6 @@ content = """
 """
 author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-07" }
 
-[[courses.sections]]
-title = "授课地点"
-
-[[courses.sections.items]]
-content = """
-大学城网球场（游泳馆后面），雨天在大学城体育馆健身房
-由于场所较远，所以老师会在学校规定上课时间后专门空出 5min 等大家（不过下楼晚的话电动车基本都被骑走了）
-"""
-author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-07" }
 
 [[courses.sections]]
 title = "学习建议"
@@ -351,6 +341,16 @@ author = { name = "longlin", link = "https://github.com/longlin10086", date = "2
 
 [[courses]]
 name = "旱地冰球"
+
+> [!NOTE]
+> 2024.12 补充：李老师已经退休，旱地冰球课现已不再开设，但旱地冰球社团仍然存在。
+> 文 / [psp_dada](https://github.com/pspdada)，2024.7
+
+[[courses.sections]]
+title = "授课地点"
+
+[[courses.sections.items]]
+content = "哈工深旱地冰球场（在操场旁边的那组场地的里边）"
 
 [[courses.teachers]]
 name = "李兴汉"
@@ -380,15 +380,14 @@ content = """
 """
 author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
 
+[[courses]]
+name = "羽毛球"
+
 [[courses.sections]]
 title = "授课地点"
 
 [[courses.sections.items]]
-content = "哈工深旱地冰球场（在操场旁边的那组场地的里边）"
-author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
-
-[[courses]]
-name = "羽毛球"
+content = "大学城羽毛球场主馆"
 
 [[courses.teachers]]
 name = "许坤"
@@ -413,15 +412,14 @@ content = """
 """
 author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
 
+[[courses]]
+name = "排球"
+
 [[courses.sections]]
 title = "授课地点"
 
 [[courses.sections.items]]
-content = "大学城羽毛球场主馆"
-author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
-
-[[courses]]
-name = "排球"
+content = "哈工深排球场（在操场旁边的那组场地的外边）"
 
 [[courses.teachers]]
 name = "沈钊龙"
@@ -451,15 +449,15 @@ content = """
 """
 author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
 
+[[courses]]
+name = "武术 - 拳"
+
 [[courses.sections]]
 title = "授课地点"
 
 [[courses.sections.items]]
-content = "哈工深排球场（在操场旁边的那组场地的外边）"
-author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
-
-[[courses]]
-name = "武术 - 拳"
+content = "大学城体育馆二楼，第一次很容易走错，建议提前 15 分钟出发，从外面进的那扇门一般不开，要从里面的楼道走上二楼"
+author = { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date = "2024-08" }
 
 [[courses.teachers]]
 name = "齐冠杰"
@@ -468,13 +466,13 @@ name = "齐冠杰"
 content = """
 老师很帅很厉害，武术除了拳，棍、剑也是他的教学项目。
 授课内容：[三路长拳](https://baike.baidu.com/item/%E4%B8%89%E8%B7%AF%E9%95%BF%E6%8B%B3/9268313)，以及一些基本的武术动作。
-学习建议：三路长拳的动作熟悉起来比较难，需要多练习，想拿高分的建议多去b站看看慢动作跟着做几遍。
+学习建议：三路长拳的动作熟悉起来比较难，需要多练习，想拿高分的建议多去 b 站看看慢动作跟着做几遍。
 注意事项：齐老师习惯每节课都开头点名，如果去晚了记得课间补签。
 """
 author = { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date = "2024-08" }
 
 [[courses.sections]]
-title = "关于考试"
+title = "分数组成"
 
 [[courses.sections.items]]
 content = """
@@ -484,15 +482,16 @@ content = """
 """
 author = { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date = "2024-08" }
 
-[[courses.sections]]
-title = "授课地点"
-
-[[courses.sections.items]]
-content = "大学城体育馆二楼，第一次很容易走错，建议提前15分钟出发，从外面进的那扇门一般不开，要从里面的楼道走上二楼"
-author = { name = "Maxwell Jay", link = "https://github.com/MaxwellJay256", date = "2024-08" }
-
 [[courses]]
 name = "足球"
+
+[[courses.sections]]
+title = "上课地点"
+
+[[courses.sections.items]]
+content = "哈工大足球场（在操场旁边的那组场地的外边）；但 2024 年秋季由于有军训，所以也会去大学城足球场上课。若下雨则会在旁边的 M 栋经管楼大堂集合，上理论课。"
+author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
+
 
 [[courses.teachers]]
 name = "沈钊龙"
@@ -502,13 +501,6 @@ content = """
 授课内容：前半节会练一些足球的基本动作，后半节打比赛
 授课风格：老师有自己的一些小原则（底线），比如下课前的集合不能背着书包等等；假如越过底线会批一顿。但是只要不触碰底线，老师其实是很好 ~~摆~~ 的，课堂氛围也很轻松。
 """
-author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
-
-[[courses.sections]]
-title = "上课地点"
-
-[[courses.sections.items]]
-content = "哈工大足球场（在操场旁边的那组场地的外边）；但 2024 年秋季由于有军训，所以也会去大学城足球场上课。若下雨则会在旁边的 M 栋经管楼大堂集合，上理论课。"
 author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
 
 [[courses.sections]]
@@ -551,6 +543,12 @@ author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "20
 [[courses]]
 name = "健身街舞"
 
+[[courses.sections]]
+title = "上课地点"
+
+[[courses.sections.items]]
+content = "大学城体育馆舞蹈室"
+
 [[courses.teachers]]
 name = "刘宏辉"
 
@@ -562,13 +560,6 @@ content = """
 有时候会组织自由活动，可以玩飞盘之类
 总体非常轻松，舞蹈室会开空调，应该是唯一一个有概率不出汗的体育课。但是学新动作费小脑。
 """
-author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
-
-[[courses.sections]]
-title = "上课地点"
-
-[[courses.sections.items]]
-content = "大学城体育馆舞蹈室"
 author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
 
 [[courses.sections]]
@@ -598,11 +589,21 @@ content = """
 不过我最终也没怎么学会街舞，对动作给不出什么建议（
 
 老师是体育名校出身，对健身有很深的理解，课上会讲很多健身的理论和实践知识。如果你想要减肥，或是有健身方面的疑惑，都可以问老师，她会非常乐意解答。
+
+> 比如笔者的经历：
+> \-  深蹲是否能时不时让膝盖超过脚尖，以适应、锻炼一下极端情况的应对能力？
+> \-  没有任何必要。对普通人来说，深蹲时膝盖超过脚尖会增加膝盖受伤的风险，这个风险的概率比遇到上面情况的概率高多了。咱又不是专业运动员，没必要冒这个险。
 """
 author = { name = "IcyDesert", link = "https://github.com/IcyDesert", date = "2025-07" }
 
 [[courses]]
 name = "乒乓球"
+[[courses.sections]]
+title = "上课地点"
+
+[[courses.sections.items]]
+content = "大学城羽毛球馆二楼乒乓球馆（如果那里有其他活动会改在活动中心上课）"
+author = { name = "ShiningQStar", link = "https://github.com/ShiningStar621", date = "2025-07" }
 
 [[courses.teachers]]
 name = "聂子琛"
@@ -613,13 +614,6 @@ content = """
 正手攻球、反手攻球、左推右攻
 如果有同学进度比较快的话会让练推、侧、扑（不在考试范围内）
 """
-author = { name = "ShiningQStar", link = "https://github.com/ShiningStar621", date = "2025-07" }
-
-[[courses.sections]]
-title = "上课地点"
-
-[[courses.sections.items]]
-content = "大学城羽毛球馆二楼乒乓球馆（如果那里有其他活动会改在活动中心上课）"
 author = { name = "ShiningQStar", link = "https://github.com/ShiningStar621", date = "2025-07" }
 
 [[courses.sections]]
@@ -638,7 +632,7 @@ content = """
 author = { name = "ShiningQStar", link = "https://github.com/ShiningStar621", date = "2025-07" }
 
 [[courses.sections]]
-title = "成绩分布"
+title = "分数组成"
 
 [[courses.sections.items]]
 content = """
@@ -676,6 +670,13 @@ name = "匹克球"
 [[courses.teachers]]
 name = "张文钊"
 
+[[courses.sections]]
+title = "上课地点"
+
+[[courses.sections.items]]
+content = "大学城羽毛球馆主馆（如果被占用会去大学城健身房上健身指导课）"
+author = { name = "CuO", link = "https://github.com/CuO114", date = "2025-12" }
+
 [[courses.teachers.reviews]]
 content = """
 授课内容：
@@ -686,14 +687,7 @@ content = """
 author = { name = "CuO", link = "https://github.com/CuO114", date = "2025-12" }
 
 [[courses.sections]]
-title = "上课地点"
-
-[[courses.sections.items]]
-content = "大学城羽毛球馆主馆（如果被占用会去大学城健身房上健身指导课）"
-author = { name = "CuO", link = "https://github.com/CuO114", date = "2025-12" }
-
-[[courses.sections]]
-title = "成绩分布"
+title = "分数组成"
 
 [[courses.sections.items]]
 content = """
@@ -702,7 +696,7 @@ content = """
 - 理论考试：10%
   - 在某一节课会上理论课，讲解相关理论并观看匹克球比赛视频，然后开卷考试
 - 身体素质：30%
-  - 1000米跑（男） 800米跑（女）
+  - 1000 米跑（男） 800 米跑（女）
   - 引体向上（男，一个一分，10 个满分） 仰卧起坐（女）
   - 折返跑
 - 专项技术：50%
@@ -736,6 +730,12 @@ author = { name = "CuO", link = "https://github.com/CuO114", date = "2025-12" }
 [[courses]]
 name = "飞盘"
 
+[[courses.sections]]
+title = "上课地点"
+
+[[courses.sections.items]]
+content = "大学城体育场"
+
 [[courses.teachers]]
 name = "张冬然"
 
@@ -748,15 +748,9 @@ content = """
 """
 author = { name = "SpeechlessPanda", link = "https://github.com/SpeechlessPanda", date = "2026-02" }
 
-[[courses.sections]]
-title = "上课地点"
-
-[[courses.sections.items]]
-content = "大学城体育场"
-author = { name = "SpeechlessPanda", link = "https://github.com/SpeechlessPanda", date = "2026-02" }
 
 [[courses.sections]]
-title = "成绩分布"
+title = "分数组成"
 
 [[courses.sections.items]]
 content = """
@@ -765,10 +759,10 @@ content = """
 - 理论考试：10%
   - 在最后一节课上考，考试内容一般和你对这门课的理解和收获有关，无标准答案，只要认真写基本都能满分。
 - 身体素质：30%
-  - 1000米跑（男） 800米跑（女）
-  - 50米跑
+  - 1000 米跑（男） 800 米跑（女）
+  - 50 米跑
 - 专项技术：50%
-  - 传接盘：正手连续20个不掉，反手连续30个不掉是满分，中间有一次的保护机制，掉了不中断也不扣分，后面再掉一次扣两分，掉两次扣四分，掉三次就终止，这种情况下以最终连续次数计分。
+  - 传接盘：正手连续 20 个不掉，反手连续 30 个不掉是满分，中间有一次的保护机制，掉了不中断也不扣分，后面再掉一次扣两分，掉两次扣四分，掉三次就终止，这种情况下以最终连续次数计分。
   - 比赛：随机分队进行比赛，分队会在最终考前几节课就分好，给大家适应时间，过程性评价，不看输赢。
 """
 author = { name = "SpeechlessPanda", link = "https://github.com/SpeechlessPanda", date = "2026-02" }
@@ -782,7 +776,7 @@ content = """
 
 不过不可否认的是飞盘比赛确实很吃体力，大家上课的时候注意量力而行。但我觉得并不是体力不好的人就不能报，相反，只要对自己的身体状况有清晰的认知和把握，比赛的时候想要休息都可以申请轮换，老师一般不会在这上面为难大家。
 
-老师人超级超级好，很幽默很有亲和力，目前了解过的那么多体育老师里面给到夯中夯，虽然老师教的另一门课体能训练并不能因此无脑报。给分也超级好，飞盘课是本人体育课中唯一一个最终分数上了90的，而且据我了解老师并不会压学生成绩，相反都是能给就给，并不太管成绩是不是正态分布，非常理解学生的难处，我们班除了极个别上课不来的应该剩下的都有八十分往上。还有张老师本身好像不太会正手接盘（doge），所以到时候可能需要大家自己多摸索尝试，但是通过考试是不难的。BTW，老师还是深圳某合唱团成员。非常有人格魅力的一个老师。
+老师人超级超级好，很幽默很有亲和力，目前了解过的那么多体育老师里面给到夯中夯，虽然老师教的另一门课体能训练并不能因此无脑报。给分也超级好，飞盘课是本人体育课中唯一一个最终分数上了 90 的，而且据我了解老师并不会压学生成绩，相反都是能给就给，并不太管成绩是不是正态分布，非常理解学生的难处，我们班除了极个别上课不来的应该剩下的都有八十分往上。还有张老师本身好像不太会正手接盘（doge），所以到时候可能需要大家自己多摸索尝试，但是通过考试是不难的。BTW，老师还是深圳某合唱团成员。非常有人格魅力的一个老师。
 
 张老师的飞盘课当时成为了我一个星期中可以毫无心理负担玩且能玩的很开心的一段时间，工作日中除了盼望着周末就是飞盘课了，强推！
 """
