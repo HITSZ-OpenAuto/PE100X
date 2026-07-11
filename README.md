@@ -216,8 +216,6 @@
 
 - 曾翠兰/周紫微
   - 好（各种方面的）
-    
-> 文 / [MaxwellJay256](https://github.com/MaxwellJay256)，2024-03
 
 ### 课程概况
 
