@@ -392,6 +392,10 @@ title = "学习建议"
 content = "不需要刻意练习，每节体育课上会给够练习时间，只要掌握好老师教授的动作要领就没问题了。以前有羽毛球经验的话会比较好上手。"
 author = { name = "longlin", link = "https://github.com/longlin10086", date = "2024-07" }
 
+[[courses.sections.items]]
+content = "26年分数组成上发生了些许变化，不再有开卷理论测试，原有的10%放在了考勤上。此外再补充下专项技术的详细组成，20个接球与5个发球，每个球2分总分50。"
+author = { name = "Wleaf", link = "https://github.com/Wleaf666", date = "2026-08" }
+
 [[courses]]
 name = "旱地冰球"
 
