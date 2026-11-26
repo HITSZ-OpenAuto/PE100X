@@ -49,6 +49,16 @@ name = "何嘉勇"
 content = "王明磊老师的师弟， 24 春季学期时要求很高，到 24 秋季学期时和已经进化到师兄看齐（笑"
 author = { name = "Gaster", link = "https://github.com/WDGaster703", date = "2025-01" }
 
+[[courses.teachers]]
+name = "丁文正"
+
+[[courses.teachers.reviews]]
+content = """
+新老师，上课强度中等，氛围轻松，但休息时也不许玩手机。
+据老师自己说只在2026年带体基班。
+"""
+author = { name = "Li2548", link = "https://github.com/li2548", date = "2026-11" }
+
 [[courses.sections]]
 title = "选课要求"
 
@@ -100,6 +110,10 @@ author = [
   { name = "沙棠栎槠", link = "", date = "" },
   { name = "2026.7", link = "", date = "" },
 ]
+
+[[courses.sections.items]]
+content = "2026 秋季学期，丁文正老师在本人的大一教学班会安排多种训练内容，一开始是热身+教玩飞盘；截至11月，他在训练我们核心肌肉力量。吃到不太过分的话是可以补签到的，整节课请假需要假条。"
+author = { name = "Li2548", link = "https://github.com/li2548", date = "2026-11" }
 
 [[courses.sections]]
 title = "关于成绩"
@@ -482,6 +496,16 @@ content = """
 考试建议：考试很考察你和队友的配合，所以尽量找有基础的同学组队，当然，考试的时候可以找提前考完的高手带着考（老师允许，但是高手很抢手
 """
 author = { name = "psp_dada", link = "https://github.com/pspdada", date = "2024-07" }
+
+[[courses.teachers]]
+name = "丁文正"
+
+[[courses.teachers.reviews]]
+content = """
+新老师，在体基班上课强度中等，氛围轻松，但休息时也不许玩手机。
+据老师自己说从27年开始教排球。
+"""
+author = { name = "Li2548", link = "https://github.com/li2548", date = "2026-11" }
 
 [[courses.sections]]
 title = "分数组成"
